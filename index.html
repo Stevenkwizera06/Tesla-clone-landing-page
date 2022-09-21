@@ -23,8 +23,8 @@
                         fill="currentColor"></path>
                 </svg>
             </div>
-            <nav class="sm:hidden">
-                <ul class="flex">
+            <nav class="">
+                <ul class="lg:flex hidden">
                     <li class="hover:bg-gray-500 rounded-lg px-4 ease-in-out duration-300">
                         <a class="" href="#">Model S</a>
                     </li>
@@ -97,7 +97,7 @@
         </section>
         <hr class="md:hidden mt-6" />
     </section>
-    <section>
+    <section class="w-full bg-blue-700">
         <div class="py-20 bg-black mt-">
             <h2 class="text-white text-center font-semibold md:text-4xl text-2xl">
                 Interior of the Future
@@ -106,9 +106,14 @@
             <br class="md:hidden" />
             <hr class="md:hidden" />
         </div>
+        <div class="w-full">
+            <img class="md:block hidden w-full" src="./images/tesla-inside.jpeg" alt="tesla-interior" />
+            <img class="md:hidden block w-full" src="./images/tesla-view.jpeg" alt="tesla-interior" />
+            <video autoplay loop muted class="w-full">
+                <source src="/images/tesla-video.mp4" type="video/mp4" />
+            </video>
+        </div>
 
-        <img class="md:block hidden" src="./images/tesla-inside.jpeg" alt="tesla-interior" />
-        <img class="md:hidden block" src="./images/tesla-view.jpeg" alt="tesla-interior" />
     </section>
 </body>
 
