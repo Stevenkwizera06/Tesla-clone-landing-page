@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,22 @@
     <link rel="stylesheet" href="/index.css">
     <title>Tesla cloning page</title>
 </head>
+
 <body class="p-0 m-0">
     <section style="
         background-image: url(../images/tesla-car.jpeg);
         background-size: cover;
         background-position: center;
       " class="">
-        <header class="flex p-4">
-            <img class="md:static absolute left-2" src="./images/tesla-logo.png" alt="logo de tesla" width="100"
-                height="20" />
-            <nav>
+        <header class="flex p-6  space-x-4 justify-between">
+            <div class="">
+                <svg class="w-28 h-8" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                        fill="currentColor"></path>
+                </svg>
+            </div>
+            <nav class="">
                 <ul class="flex">
                     <li class="hover:bg-gray-500 rounded-lg px-4 ease-in-out duration-300">
                         <a class="" href="#">Model S</a>
@@ -38,7 +45,7 @@
                     </li>
                 </ul>
             </nav>
-            <nav class="ml-96">
+            <nav class="flex justify-end">
                 <ul class="hidden md:flex justify-end">
                     <li class="mx-2 hover:bg-gray-500 rounded-lg px-4 ease-in-out duration-300">
                         <a href="#">Shop</a>
@@ -54,10 +61,10 @@
                     menu
                 </button>
             </nav>
-            
+
         </header>
         <div class="">
-            <h1 class="text-4xl font-semibold text-center md:pt-32 pt-20 md:pb-96 pb-56">
+            <h1 class="text-4xl font-semibold text-center md:pt-32  md:pb-96 ">
                 Model S <br />
                 <span class="text-xl font-light">Plaid</span>
             </h1>
@@ -104,4 +111,5 @@
         <img class="md:hidden block" src="./images/tesla-view.jpeg" alt="tesla-interior" />
     </section>
 </body>
+
 </html>
