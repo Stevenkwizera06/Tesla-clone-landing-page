@@ -10,6 +10,12 @@
         "frame-title": "off",
         "image-alt": "off"
       }
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-required-attr": "off"
+      }
     ]
   }
 }
